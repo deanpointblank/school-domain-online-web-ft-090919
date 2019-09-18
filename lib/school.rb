@@ -1,10 +1,14 @@
+<<<<<<< HEAD
 require "pry"
+=======
+>>>>>>> 824eb6ea3e500b36aec2036f353a5d6c3f8805c0
 # code here!
 class School
   attr_reader :school_name
   
   def initialize(school_name)
     @school_name = school_name
+<<<<<<< HEAD
     @roster = {}
   end
   
@@ -32,3 +36,13 @@ class School
     end
   end
 end
+=======
+    roster = {}
+  end
+  
+  def add_student(name, grade)
+    
+  end
+  
+end
+>>>>>>> 824eb6ea3e500b36aec2036f353a5d6c3f8805c0
